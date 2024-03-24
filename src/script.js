@@ -1,6 +1,6 @@
 const IYA = document.querySelector('#iya');
 const TIDAK = document.querySelector('#tidak');
-IYA.addEventListener('click', () => {
+TIDAK.addEventListener('click', () => {
     document.querySelectorAll('button').forEach((button) => {
         button.remove();
     });
@@ -9,7 +9,7 @@ IYA.addEventListener('click', () => {
     document.querySelector('.wrapper > div > div > div:first-child > p').innerText = 'Anda adalah seorang Mahasiswa';
     document.querySelector('.wrapper > div > img').setAttribute('src','assets/22b0da421086d344420bcc7fb45598b1.png')
 });
-TIDAK.addEventListener('click', () => {
+IYA.addEventListener('click', () => {
     document.querySelectorAll('button').forEach((button) => {
         button.remove();
     });
